@@ -1,5 +1,6 @@
-# EC-Survival-Prediction
-Multi-omic approach for predicting EC survival
+# Endometrial Carcinoma (EC) Survival Prediction
+## Summary
+This final project for the NYU Advanced Integratic Omics course sought to use a multi-omic approach to predict EC paitient survival using normalized RNA read counts, as well as relevant abundance of protein and phosphosites identified with Tandem Mass Spectrometry (TMT), measured using z-statistic and adjusted log2-ratio respectively. Dimensionality reduction of the omics data was performced using variance thresholding follwed by one of two methods, either Lasso with cross-validation (LassoCV), or recurrent feature elimination with cross-validation (RFECV).
 
 ## Methods
 Two methods of feature selection were tested before training a random forest regressor    
